@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>For Someone Special 💖</title>
 
-  <!-- ✅ META TAGS for Instagram / WhatsApp Preview -->
+  <!-- META TAGS for Instagram / WhatsApp Preview -->
   <meta property="og:title" content="For Someone Special 💖">
   <meta property="og:description" content="A small surprise that glows with love.">
   <meta property="og:image" content="https://i.imgur.com/7oTWqek.jpg">
@@ -12,7 +12,6 @@
   <meta property="og:url" content="https://yourusername.github.io/delishya-page/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Styles -->
   <style>
     body {
       margin: 0;
@@ -26,10 +25,11 @@
       align-items: center;
       flex-direction: column;
       position: relative;
+      text-align: center;
     }
 
     .heart {
-      font-size: 60px;
+      font-size: 50px;
       animation: heartbeat 1.5s infinite;
       margin-bottom: 10px;
       z-index: 1;
@@ -41,12 +41,13 @@
     }
 
     .name {
-      font-size: 60px;
+      font-size: clamp(32px, 8vw, 60px);
       font-weight: bold;
       color: #c2185b;
       text-shadow: 0 0 10px #ff80bf, 0 0 20px #ff80bf;
       animation: glow 2.5s ease-in-out infinite;
-      letter-spacing: 10px;
+      letter-spacing: 6px;
+      white-space: nowrap;
       z-index: 1;
     }
 
@@ -57,7 +58,7 @@
 
     .typing {
       color: #444;
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 15px;
       white-space: nowrap;
       border-right: 2px solid #444;
@@ -68,14 +69,13 @@
 
     @keyframes typing {
       from { width: 0; }
-      to { width: 360px; }
+      to { width: 300px; }
     }
 
     .line {
-      font-size: 22px;
+      font-size: 20px;
       margin-top: 25px;
       color: #555;
-      text-align: center;
       max-width: 90%;
       animation: fadeIn 3s ease 6s forwards;
       opacity: 0;
@@ -112,17 +112,20 @@
     }
 
     .emoji {
-      font-size: 28px;
+      font-size: 26px;
       margin-top: 20px;
     }
   </style>
 </head>
+
 <body>
 
   <div class="heart">🌹💖🌸</div>
   <div class="name">S A R A N Y A</div>
   <div class="typing">A name so graceful... truly unforgettable.</div>
-  <div class="line">Just like a rose in full bloom, your presence adds beauty to the simplest of days.</div>
+  <div class="line">
+    Just like a rose in full bloom, your presence adds beauty to the simplest of days.
+  </div>
   <div class="emoji">🌷💐🌺🌼🌸🌹</div>
 
   <div class="sparkles">
