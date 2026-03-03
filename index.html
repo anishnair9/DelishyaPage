@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>For Someone Special 💖</title>
 
-  <!-- META TAGS for Instagram / WhatsApp Preview -->
+  <!-- META TAGS -->
   <meta property="og:title" content="For Someone Special 💖">
   <meta property="og:description" content="A small surprise that glows with love.">
   <meta property="og:image" content="https://i.imgur.com/7oTWqek.jpg">
@@ -64,12 +64,14 @@
       border-right: 2px solid #444;
       overflow: hidden;
       width: 0;
-      animation: typing 5s steps(40, end) 1s forwards;
+      display: inline-block;
+      max-width: 90vw;
+      animation: typing 4s steps(45, end) 1s forwards;
     }
 
     @keyframes typing {
       from { width: 0; }
-      to { width: 300px; }
+      to { width: 45ch; }
     }
 
     .line {
@@ -77,7 +79,7 @@
       margin-top: 25px;
       color: #555;
       max-width: 90%;
-      animation: fadeIn 3s ease 6s forwards;
+      animation: fadeIn 3s ease 5s forwards;
       opacity: 0;
     }
 
@@ -98,8 +100,8 @@
 
     .sparkle {
       position: absolute;
-      width: 12px;
-      height: 12px;
+      width: 10px;
+      height: 10px;
       background: #ff69b4;
       border-radius: 50%;
       opacity: 0.7;
@@ -112,7 +114,7 @@
     }
 
     .emoji {
-      font-size: 26px;
+      font-size: 24px;
       margin-top: 20px;
     }
   </style>
@@ -121,11 +123,17 @@
 <body>
 
   <div class="heart">🌹💖🌸</div>
+
   <div class="name">S A R A N Y A</div>
-  <div class="typing">A name so graceful... truly unforgettable.</div>
+
+  <div class="typing">
+    A name so graceful... truly unforgettable.
+  </div>
+
   <div class="line">
     Just like a rose in full bloom, your presence adds beauty to the simplest of days.
   </div>
+
   <div class="emoji">🌷💐🌺🌼🌸🌹</div>
 
   <div class="sparkles">
